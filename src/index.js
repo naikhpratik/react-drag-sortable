@@ -165,7 +165,7 @@ class DragSortableList extends React.Component {
     const key = 'item-' + id
     let style = {
       position: 'relative',
-      float: (layoutType === 'horizontal' || layoutType === 'grid') ? 'left' : 'none'
+      float: 'none'
     }
     let classNames = 'draggable'
     classNames += (classes) ? ' ' + classes.join(' ') : ''
